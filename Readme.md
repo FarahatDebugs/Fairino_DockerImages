@@ -1,4 +1,4 @@
-# Robot Docker Setup Guide
+# Docker Setup Guide
 
 This guide explains how to download, extract, and run the appropriate Docker image for your robot model.
 
