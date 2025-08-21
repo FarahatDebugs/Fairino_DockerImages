@@ -73,6 +73,9 @@ You should see all running instances, with `fr3` actively running.
 Open the **WebAPP** → Navigate to **System ⇒ About**  
 Ensure the **robot model** aligns with the **Docker image** you installed.
 
+![Container Example](WebAPP.png)
+
+
 ---
 
 
