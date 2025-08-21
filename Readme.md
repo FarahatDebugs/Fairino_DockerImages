@@ -8,7 +8,7 @@ This guide explains how to download, extract, and run the appropriate Docker ima
 
 Choose the tar file based on your robot version:
 
-- **FR10 Model** ⇒ `fr10_v01_001`
+- **FR10 Model** ⇒ `fr10_v01_001.tar.gz`
 - **FR3 Model** ⇒ `fr3_v01_001.tar.gz`
 [Download from Google Drive](https://drive.google.com/drive/folders/1H9e09kq_9LHEltpWT7LXSCKwEqdkc23f?)
 ---
