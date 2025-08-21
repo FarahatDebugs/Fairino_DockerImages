@@ -10,13 +10,21 @@ Choose the tar file based on your robot version:
 
 - **FR10 Model** ⇒ `fr10_v01_001.tar.gz`
 - **FR3 Model** ⇒ `fr3_v01_001.tar.gz`
+
+👉 **Note:** Replace `(v)` in the filenames/commands with your robot model (e.g., `fr3`, `fr5`, `fr10`).  
 [Download from Google Drive](https://drive.google.com/drive/folders/1H9e09kq_9LHEltpWT7LXSCKwEqdkc23f?)
+
 ---
 
 ## 2. Extract the File
 
 Unzip the downloaded file:
 
+```bash
+gunzip fr(v)_v01_001.tar.gz
+```
+
+after replacing the command your final code will look like 
 ```bash
 gunzip fr3_v01_001.tar.gz
 ```
@@ -28,7 +36,7 @@ gunzip fr3_v01_001.tar.gz
 (Assuming Docker is already installed on your machine)
 
 ```bash
-sudo docker load -i fr3_v01_001.tar
+sudo docker load -i fr(v)_v01_001.tar
 ```
 
 ---
@@ -49,7 +57,7 @@ Run the loaded image for the first time using the following command.
 This ensures that the image is properly connected to the network (assuming **fairino-net** is set up):
 
 ```bash
-sudo docker run -d -P --name fr3_v01_001 --privileged -u root --net fairino-net fr3_v01_001
+sudo docker run -d -P --name fr(v)_v01_001 --privileged -u root --net fairino-net fr(v)_v01_001
 ```
 
 ---
