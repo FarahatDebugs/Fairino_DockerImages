@@ -33,7 +33,7 @@ sudo docker load -i fr3_v01_001.tar
 
 ---
 
-## 4. (Optional) Create a Docker Network
+## 4. (You can Skip this if you already have fairino-net network) Create a Docker Network
 
 If you do not already have a network named **fairino-net**, create one:
 
