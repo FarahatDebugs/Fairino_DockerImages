@@ -64,7 +64,7 @@ sudo docker ps -a
 
 You should see all running instances, with `fr3` actively running.
 
-![Container Example](attachment:b21d01ad-6a1d-4ad8-be56-376040b0e147:image.png)
+![Container Example](DockerImages.png)
 
 ---
 
